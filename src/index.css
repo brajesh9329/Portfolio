@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #3b82f6; /* blue cursor */
+  width: 0;
+  animation: typing 2.5s steps(15, end) forwards, blink 0.7s infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* 
+echo "# Portfolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:brajesh9329/Portfolio.git
+git push -u origin main */
