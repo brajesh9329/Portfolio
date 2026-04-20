@@ -8,7 +8,7 @@ const Rightside = () => {
         
         <img 
           className='w-full h-auto object-cover'  
-          src='./public/bp.jpeg' 
+          src='bp.jpeg' 
           alt="profile"
         />
      
