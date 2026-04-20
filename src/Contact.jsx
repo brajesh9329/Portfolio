@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
-import app from "./firebase";
+import app from "./Firebase";
 import emailjs from "@emailjs/browser";
 
 const db = getFirestore(app);
