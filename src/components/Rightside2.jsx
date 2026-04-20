@@ -20,9 +20,7 @@ const Rightside2 = () => {
 
         {/* Description */}
         <p className='text-gray-300 text-sm md:text-lg lg:text-xl leading-relaxed max-w-md md:max-w-lg mx-auto md:mx-0'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Recusandae vel nobis hic. Lorem ipsum dolor sit amet consectetur 
-          adipisicing elit. Dolore autem voluptate.
+          We are creative developers passionate about transforming ideas into modern, user-friendly web experiences. We focus on building visually appealing and highly functional websites that deliver seamless performance across all devices. By combining clean design, efficient code, and the latest technologies, we create digital solutions that not only look great but also provide an engaging and intuitive user experience.
         </p>
 
       </div>
